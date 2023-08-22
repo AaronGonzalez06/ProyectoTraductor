@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traductor Aarón</title>
+    <script src="js/function.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Traductor</h1>
+        <img src="./assets/dictionary.png"/>
+    </header>
+    <main>
+        <div id="traductor">
+            <div class="idiomas mod">
+                <span id="esp" class="idioma color">Español</span>
+                <span id="ing" class="idioma">Inglés</span>
+            </div>
+            <textarea id="textareaTraducir" placeholder="Escribe aquí tu texto" maxlength="500"></textarea>
+            <div id="caracteres">
+                <span><span id="caracter"></span>/500</span> <span id="btn-translate" class="idioma">Traducir</span>
+            </div>
+        </div>
+        <div id="traduccion">
+            <div class="idiomas">
+                <span id="espTr" class="idioma">Español</span>
+                <span id="ingTr" class="idioma color">Inglés</span>
+            </div>
+            <textarea id="textareaTraduccion" placeholder="Traducción" maxlength="500"></textarea>
+            <div id="botonera_traduccion">
+                <span id="clear" class="idioma">Limpiar</span>
+                <span id="save" class="idioma">Guardar</span>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <div id="btn_opciones">
+            <div class="btn_accion idioma">Historial</div>
+            <div class="btn_accion idioma">Guardado</div>
+        </div>
+        <div class="hisFav">
+            <div class="cabecera_btn">
+                <span class="hisFav_header">Texto original</span><span class="hisFav_header">Traducción</span>
+            </div>
+        </div>
+        <div class="hisFav">
+            <div class="cabecera_btn">
+                <span class="hisFav_header">Texto original</span><span class="hisFav_header">Traducción</span>
+            </div>
+        </div>
+    </aside>
+</body>
+</html>

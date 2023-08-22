@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+}
+body{
+    background-color: #1e90ff;
+    
+}
+
+header{
+    background-color: #FFFFFF;
+    padding: 8px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    height: 50px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+main{
+    padding-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+textarea{
+    width: 640px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1px gray;
+    padding: 3px;
+    font-size: 25px;
+}
+
+.idiomas{
+    display: flex;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.idioma{
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: box-shadow 0.4s ease, color 0.4s ease;
+    padding: 3px 20px 5px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #555555;
+    color: #FFFFFF;
+}
+
+.idioma:hover {
+    box-shadow: inset 400px 0 0 0 #e6e6e6;
+    color: black;
+  }
+
+#caracteres{
+    display: flex;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    justify-content: space-between;
+}
+
+#btn-translate{
+    cursor: pointer;
+}
+
+#clear {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+aside{
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+#botonera_traduccion {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.hisFav{
+    width: 45%;
+    background-color: #e6e6e6;
+    min-height: 54px;
+    margin-top: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    padding: 5px;
+    padding-left: 23px;
+}
+
+#btn_opciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mod{
+    flex-direction: row-reverse;
+}
+
+.color{
+    background-color: #e6e6e6;
+    color: black;
+}
+
+#save{
+    cursor: pointer;
+}
+
+.btn_accion{
+    cursor: pointer;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.cabecera_btn{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+h1 {
+    font-size: 234%;
+}
+
+.hisFav_header{
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.translateHisFav {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    transition: background-color 0.4s ease, color 0.4s ease;
+    cursor: pointer;
+}
+
+.translateHisFav:hover{
+    background-color: #1e90ff;
+    color: #FFFFFF;
+}
