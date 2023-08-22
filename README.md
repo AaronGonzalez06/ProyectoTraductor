@@ -1,1 +1,1 @@
-# Proyecto para ver los puntos de los equipos en la Premier League
+# Proyecto para traducir texto programado en JavaScript.
