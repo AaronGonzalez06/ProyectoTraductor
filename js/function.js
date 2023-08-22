@@ -6,7 +6,7 @@ async function translated(text, origin, destination) {
 		headers: {
 		  'content-type': 'application/x-www-form-urlencoded',
 		  'Accept-Encoding': 'application/gzip',
-		  'X-RapidAPI-Key': '02e2c7be6cmsh1a8ef466d363fe4p1cfa9ajsn7bb9490e5bf0',
+		  'X-RapidAPI-Key': 'd88bc681eemshce849d561a5b7f3p196453jsna449dcca90f2',
 		  'X-RapidAPI-Host': 'google-translate1.p.rapidapi.com'
 		},
 		body: new URLSearchParams({
